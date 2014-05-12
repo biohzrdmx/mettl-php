@@ -50,7 +50,6 @@
 			if ( $query && ($method == 'get' || $method == 'delete') ) {
 				$url = "{$url}?{$query}";
 			}
-			print_a($url);
 			# Open connection
 			$ch = curl_init();
 			# Set the url, number of POST vars, POST data, etc
